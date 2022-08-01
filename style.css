@@ -25,8 +25,9 @@
   background-color: #292828;
   color: white;
   position: fixed;
-  top: 40%;
+  top: 12%;
   width: 100%;
+  height: 7%;
   left: 0%;
 }
 
@@ -58,29 +59,56 @@
 }
 
 #signlabel {
-    position: fixed;
-    top: 3%;
-    right: 10%;
-    font-weight: bold;
+  position: fixed;
+  top: 3%;
+  right: 10%;
+  font-weight: bold;
 }
 
-#acchead{
-    position: fixed;
-    right: 13.8%;
-    top: 5%;
+#acchead {
+  position: fixed;
+  right: 13.8%;
+  top: 5%;
 }
-
 
 #carttext {
   position: fixed;
-  top:26px;
-  right:159px;
+  top: 26px;
+  right: 150px;
 }
 
-#cartimg{
+#cartimg {
   position: fixed;
-  right: 110px;
+  right: 100px;
   top: 26px;
   width: 50px;
 }
 
+.v1 {
+  border-left: 2px solid grey;
+  height: 25px;
+  position: fixed;
+  right: 182px;
+  top: 40px;
+}
+
+#middletext {
+  position: relative;
+  left:37%;
+  top:0px;
+  font-size: 19px;
+}
+
+#orderbtn{
+  position: relative;
+  left: 60.5%;
+  bottom: 50px;
+  border-radius: 30px;
+  width:140px;
+  height: 40px;
+  background-color: #e4002b;
+  border-color: #e4002b;
+  color: #dbd9d9;
+  font-weight: bold;
+
+}
