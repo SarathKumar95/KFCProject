@@ -1,0 +1,86 @@
+.navleft {
+  color: black;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.navright {
+  color: black;
+  font-size: 18px;
+  text-decoration: none;
+  position: fixed;
+  left: 85%;
+  top: 5%;
+}
+
+.header-top {
+  background-color: whitesmoke;
+  width: 100%;
+  position: fixed;
+  left: 0%;
+  top: 0%;
+}
+
+.header-middle {
+  background-color: #292828;
+  color: white;
+  position: fixed;
+  top: 40%;
+  width: 100%;
+  left: 0%;
+}
+
+.header-last {
+  background-color: #dbd9d9;
+  color: black;
+  width: 100%;
+  position: fixed;
+  top: 60%;
+  left: 0%;
+}
+
+#menu {
+  position: fixed;
+  left: 15%;
+  top: 5%;
+}
+
+#deals {
+  position: fixed;
+  left: 19%;
+  top: 5%;
+}
+
+#kfcimg {
+  position: fixed;
+  left: 9%;
+  top: 5%;
+}
+
+#signlabel {
+    position: fixed;
+    top: 3%;
+    right: 10%;
+    font-weight: bold;
+}
+
+#acchead{
+    position: fixed;
+    right: 13.8%;
+    top: 5%;
+}
+
+
+#carttext {
+  position: fixed;
+  top:26px;
+  right:159px;
+}
+
+#cartimg{
+  position: fixed;
+  right: 110px;
+  top: 26px;
+  width: 50px;
+}
+
