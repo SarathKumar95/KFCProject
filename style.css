@@ -32,11 +32,12 @@
 }
 
 .header-last {
-  background-color: #dbd9d9;
+  background-color: whitesmoke;
   color: black;
   width: 100%;
   position: fixed;
-  top: 60%;
+  top: 19%;
+  height: 12%;
   left: 0%;
 }
 
@@ -111,4 +112,10 @@
   color: #dbd9d9;
   font-weight: bold;
 
+}
+
+#welcome {
+  font-weight: bold;
+  padding-left: 15%;
+  font-size: 35px;
 }
