@@ -127,9 +127,10 @@ html {
 
 #welcome {
   position: relative;
-  left: 275px;
-  bottom: -25px;
-  font-size: 33px;
+  left: 280px;
+  bottom: -8px;
+  font-size: 37px;
+  font-family: 'Anton', sans-serif;
 }
 
 article {
@@ -141,9 +142,9 @@ article {
 
 #articleline {
   position: fixed;
-  left: 630px;
+  left: 610px;
   width: 1180px;
-  top: 392px;
+  top: 400px;
 }
 
 .flex-container {
@@ -154,6 +155,8 @@ article {
 
 h2 {
   padding-bottom: 50px;
+  font-family: 'Anton', sans-serif;
+  font-size: 30px;
 }
 
 .card {
@@ -196,3 +199,5 @@ h2 {
   position: fixed;
   left: 304px;
 }
+
+
