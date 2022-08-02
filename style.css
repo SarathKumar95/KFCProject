@@ -1,3 +1,7 @@
+html {
+  overflow: auto;
+}
+
 .navleft {
   color: black;
   font-size: 16px;
@@ -95,23 +99,22 @@
 
 #middletext {
   position: relative;
-  left:37%;
-  top:0px;
+  left: 37%;
+  top: 0px;
   font-size: 19px;
 }
 
-#orderbtn{
+#orderbtn {
   position: relative;
   left: 60.5%;
   bottom: 50px;
   border-radius: 30px;
-  width:140px;
+  width: 140px;
   height: 40px;
   background-color: #e4002b;
   border-color: #e4002b;
   color: #dbd9d9;
   font-weight: bold;
-
 }
 
 #welcome {
@@ -120,16 +123,57 @@
   font-size: 35px;
 }
 
-
-article{
+article {
   position: fixed;
   top: 365px;
   padding-left: 290px;
+  
 }
 
-#articleline{
-  position: relative;
-  left: 305px;
-  width: 430%;
-  bottom: 36px;
+#articleline {
+  position: fixed;
+  left: 630px;
+  width: 1180px;
+  top: 392px;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-right: 2px;
+  
+  
+}
+
+h2 {
+  padding-bottom: 50px;
+}
+
+
+.card {
+
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 345px;
+  height: 300px;
+  margin: 1px;
+  
+}
+
+.cardimage {
+  width: 100%;
+}
+
+.cardtitle {
+  padding-left: 100px;
+  padding-top: 5px;
+  font: 18px bold;
+  
+
 }
