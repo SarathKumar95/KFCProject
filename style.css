@@ -106,15 +106,16 @@ html {
 
 #middletext {
   position: relative;
-  left: 37%;
+  left: 40%;
   top: 0px;
-  font-size: 19px;
+  font-size: 20px;
+  font-family: 'Anton', sans-serif;
 }
 
 #orderbtn {
   position: relative;
-  left: 60.5%;
-  bottom: 50px;
+  left: 58%;
+  bottom: 56px;
   border-radius: 30px;
   width: 140px;
   height: 40px;
