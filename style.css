@@ -119,3 +119,17 @@
   padding-left: 15%;
   font-size: 35px;
 }
+
+
+article{
+  position: fixed;
+  top: 365px;
+  padding-left: 290px;
+}
+
+#articleline{
+  position: relative;
+  left: 305px;
+  width: 430%;
+  bottom: 36px;
+}
