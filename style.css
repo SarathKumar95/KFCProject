@@ -127,7 +127,6 @@ article {
   position: fixed;
   top: 365px;
   padding-left: 290px;
-  
 }
 
 #articleline {
@@ -141,21 +140,16 @@ article {
   display: flex;
   flex-wrap: nowrap;
   margin-right: 2px;
-  
-  
 }
 
 h2 {
   padding-bottom: 50px;
 }
 
-
 .card {
-
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 20px;
-
 }
 
 .flex-container > div {
@@ -163,7 +157,6 @@ h2 {
   width: 345px;
   height: 300px;
   margin: 1px;
-  
 }
 
 .cardimage {
@@ -174,6 +167,23 @@ h2 {
   padding-left: 100px;
   padding-top: 5px;
   font: 18px bold;
-  
+}
 
+.kfcline {
+  border-left: 8px solid red;
+  height: 25px;
+  position: relative;
+  left: 290px;
+}
+
+#v2 {
+  position: fixed;
+  top: 175px;
+  left: 275px;
+}
+
+#v3 {
+  position: fixed;
+  top: 175px;
+  left: 304px;
 }
