@@ -75,15 +75,12 @@ h3 {
 
 }
 
-article {
-  padding-left: 290px;
-}
-
 #articleline {
-  position: fixed;
-  left: 610px;
-  width: 1180px;
-  top: 400px;
+  width: 60%;
+  position: relative;
+  left: 250px;
+  bottom: 35px;
+
 }
 
 .flex-container {
@@ -93,14 +90,16 @@ article {
 }
 
 h2 {
-  padding-bottom: 50px;
   font-family: "Anton", sans-serif;
   font-size: 30px;
+  font-weight: bold;
+  margin-left: 300px;
+  margin-top: 65px;
 }
 
 .card {
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 10px;
+  padding-right: 15px;
   padding-top: 20px;
 }
 
@@ -116,9 +115,10 @@ h2 {
 }
 
 .cardtitle {
-  padding-left: 100px;
+  padding-left: 90px;
   padding-top: 5px;
-  font: 18px bold;
+  font-size: 16px;
+  font-weight: bold;
   font-family: "Anton", sans-serif;
 }
 
@@ -146,7 +146,7 @@ h2 {
 
 nav{
   font-family: "Mukta", sans-serif;
-  height: 80px;
+  height: 90px;
   background-color: white;
   
 }
@@ -212,5 +212,11 @@ nav{
 #buckimg {
   position: relative;
   bottom:-18px ;
+}
+
+article{
+  width: 75%;
+  padding-left: 300px;
+  padding-top: 60px;
 }
 
