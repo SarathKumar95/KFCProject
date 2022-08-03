@@ -1,27 +1,19 @@
-.navleft {
-  color: black;
-  font-size: 17px;
-  text-decoration: none;
-}
-
-.navright {
-  color: black;
-  font-size: 17px;
-  text-decoration: none;
-}
-
-.header-top {
-  background-color: whitesmoke;
-}
-
 .header-middle {
   background-color: #292828;
   color: white;
-}
+  height: 55px;
+  width: 100%;
+  padding-top: 5px;
+  padding-left: 2px;
+  }
 
 .header-last {
-  background-color: whitesmoke;
+  background-color: white;
   color: black;
+  height: 110px;
+  position: relative;
+  bottom: 35px;
+  padding-left: 2px;
 }
 
 #menu {
@@ -52,8 +44,10 @@
 }
 
 #middletext {
-  font-size: 20px;
+  font-size: 18px;
   font-family: "Anton", sans-serif;
+  text-align: center;
+  
 }
 
 #orderbtn {
@@ -64,11 +58,21 @@
   border-color: #e4002b;
   color: #dbd9d9;
   font-weight: bold;
+  position: relative;
+  left: 1120px;
+  bottom: 50px;
 }
 
-#welcome {
-  font-size: 37px;
+h3 {
+  font-size: 35px;
   font-family: "Anton", sans-serif;
+  font-weight: bold;
+  position: relative;
+  top: 33px;
+  padding-left: 260px;
+
+
+
 }
 
 article {
@@ -120,20 +124,19 @@ h2 {
 
 .kfcline {
   border-left: 8px solid #d6281c;
-  height: 25px;
-  position: fixed;
-  left: 290px;
-  top: 175px;
+  height: 22px;
+  padding-right: 35px;
 }
 
 #v2 {
-  position: fixed;
-  left: 275px;
+  position:relative;
+  bottom: 70px;
 }
 
 #v3 {
-  position: fixed;
-  left: 304px;
+  position: relative;
+  bottom: 92px;
+  left: 15px;
 }
 
 
@@ -193,16 +196,16 @@ nav{
 
 #signtext{
   position: relative;
-  right: 100px;
-  top: 6px;
-  font-size: 17px;
+  right: 200px;
+  top: 4px;
+  font-size: 20px;
   font-weight: bold;
 }
 
 #bucktext{
   position: relative;
-  bottom: 55px;
-  right: 15px;
+  bottom: 59px;
+  right: 112px;
   font-weight: bold;
 }
 
