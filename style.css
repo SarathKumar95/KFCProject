@@ -1,9 +1,3 @@
-html {
-  width: 100%;
-  height: 100%;
-  
-}
-
 .navleft {
   color: black;
   font-size: 17px;
@@ -14,108 +8,55 @@ html {
   color: black;
   font-size: 17px;
   text-decoration: none;
-  position: fixed;
-  left: 85%;
-  top: 5%;
 }
 
 .header-top {
   background-color: whitesmoke;
-  width: 100%;
-  position: fixed;
-  left: 0%;
-  top: 0%;
 }
 
 .header-middle {
   background-color: #292828;
   color: white;
-  position: fixed;
-  top: 12%;
-  width: 100%;
-  height: 7%;
-  left: 0%;
 }
 
 .header-last {
   background-color: whitesmoke;
   color: black;
-  width: 100%;
-  position: fixed;
-  top: 19%;
-  height: 13%;
-  left: 0%;
 }
 
 #menu {
-  position: fixed;
-  left: 15%;
-  top: 5%;
-  font-family: 'Mukta', sans-serif;
-  
+  font-family: "Mukta", sans-serif;
 }
 
 #deals {
-  position: fixed;
-  left: 19%;
-  top: 5%;
-  font-family: 'Mukta', sans-serif;
-}
-
-#kfcimg {
-  position: fixed;
-  left: 9%;
-  top: 5%;
+  font-family: "Mukta", sans-serif;
 }
 
 #signlabel {
-  position: fixed;
-  top: 3%;
-  right: 10%;
-  font-family: 'Mukta', sans-serif;
+  font-family: "Mukta", sans-serif;
   font-weight: bold;
 }
 
-#acchead {
-  position: fixed;
-  right: 13.3%;
-  top: 5%;
-}
 
 #carttext {
-  position: fixed;
-  top: 30px;
-  right: 150px;
-  font-family: 'Mukta', sans-serif;
+  font-family: "Mukta", sans-serif;
 }
 
 #cartimg {
-  position: fixed;
-  right: 100px;
-  top: 35px;
   width: 50px;
 }
 
 .v1 {
-  border-left: 2px solid #d9dbda ;
+  border-left: 2px solid #d9dbda;
   height: 25px;
-  position: fixed;
-  right: 180px;
-  top: 44px;
 }
 
 #middletext {
-  position: relative;
-  left: 40%;
-  top: 0px;
   font-size: 20px;
-  font-family: 'Anton', sans-serif;
+  font-family: "Anton", sans-serif;
 }
 
 #orderbtn {
-  position: relative;
-  left: 58%;
-  bottom: 56px;
   border-radius: 30px;
   width: 140px;
   height: 40px;
@@ -126,18 +67,12 @@ html {
 }
 
 #welcome {
-  position: relative;
-  left: 280px;
-  bottom: -8px;
   font-size: 37px;
-  font-family: 'Anton', sans-serif;
+  font-family: "Anton", sans-serif;
 }
 
 article {
-  position: fixed;
-  top: 365px;
   padding-left: 290px;
-  
 }
 
 #articleline {
@@ -155,7 +90,7 @@ article {
 
 h2 {
   padding-bottom: 50px;
-  font-family: 'Anton', sans-serif;
+  font-family: "Anton", sans-serif;
   font-size: 30px;
 }
 
@@ -180,15 +115,15 @@ h2 {
   padding-left: 100px;
   padding-top: 5px;
   font: 18px bold;
-  font-family: 'Anton', sans-serif;
+  font-family: "Anton", sans-serif;
 }
 
 .kfcline {
-  border-left: 8px solid  #d6281c ;
+  border-left: 8px solid #d6281c;
   height: 25px;
   position: fixed;
   left: 290px;
-  top:175px;
+  top: 175px;
 }
 
 #v2 {
@@ -201,4 +136,78 @@ h2 {
   left: 304px;
 }
 
+
+#buckimg{
+  width: 50px;
+}
+
+nav{
+  font-family: "Mukta", sans-serif;
+  height: 80px;
+  background-color: white;
+  
+}
+
+.listitems{
+  list-style: none;
+  float: left;
+}
+
+#logo{
+  padding-left: 3px;
+  
+}
+
+#kfcimg{
+  margin-top: 1.5%;
+}
+
+
+#menu {
+  position: relative;
+  left: 220px;
+  top: 14px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+#deals {
+  position: relative;
+  left:300px;
+  top: -14px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.listitemsright{
+  float: right;
+  list-style: none;
+
+}
+
+#headimg{
+  position: relative;
+  left: -10px;
+  top: 2px;
+}
+
+#signtext{
+  position: relative;
+  right: 100px;
+  top: 6px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+#bucktext{
+  position: relative;
+  bottom: 55px;
+  right: 15px;
+  font-weight: bold;
+}
+
+#buckimg {
+  position: relative;
+  bottom:-18px ;
+}
 
