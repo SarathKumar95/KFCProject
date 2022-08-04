@@ -1,3 +1,9 @@
+html,body{
+  height: 100%;
+  overflow-x: hidden;
+}
+
+
 .header-middle {
   background-color: #292828;
   color: white;
@@ -78,7 +84,7 @@ h3 {
 #articleline {
   width: 60%;
   position: relative;
-  left: 250px;
+  left: 325px;
   bottom: 35px;
 
 }
@@ -220,3 +226,89 @@ article{
   padding-top: 60px;
 }
 
+.box{
+
+  background-color: #292828;
+  height: 800px;
+  position: relative;
+  top: 150px;
+
+}
+
+#footerbox {
+
+  color: white;
+  position: relative;
+  top: 125px;
+
+  
+
+}
+
+#uncle {
+
+  position: relative;
+  top: 500px;
+  left: 160px;
+
+}
+
+.flex-container2{
+  color: white;
+  
+  
+}
+
+
+.flex-container3{
+  color: white;
+}
+
+
+.flex-container4{
+  color: white;
+}
+
+.cont_list {
+  list-style: none;
+  color: white;
+  
+}
+
+#list1{
+  position: relative;
+  top: 405px;
+  left: 260px;
+}
+
+#list2{
+  position: relative;
+  top: 298px;
+  left: 480px;
+}
+
+#list3 {
+  position: relative;
+  top: 194px;
+  left:640px;
+}
+
+#list4 {
+  position: relative;
+  top: 90px;
+  left: 850px;
+}
+
+#map {
+  position: relative;
+  top: -15px;
+  left: 1000px;
+}
+
+#maptext {
+  position: relative;
+  top: -40px;
+  left: 20px;
+  color: white;
+  text-decoration: underline;
+}
